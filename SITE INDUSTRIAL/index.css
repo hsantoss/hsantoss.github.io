@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background-image: url(images/darkFactory.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 00, 00, 0.7);
+}
+
+nav {
+  padding-top: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 10%;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-bottom: none;
+  transition: 0.5s;
+}
+
+.logo a {
+  margin-top: 3%;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.texto {
+  margin-top: 250px;
+  margin-left: 25%;
+  width: 600px;
+  text-align: center;
+  padding: 10px;
+  border: solid 3px white;
+  color: white;
+  position: absolute;
+  z-index: 3;
+}
+.texto p {
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.texto h1 {
+  font-size: 30px;
+}
+.logo {
+  display: inline-block;
+}
+main {
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+main h1 {
+  color: rgb(31, 31, 31);
+}
+
+main p {
+  color: rgb(38, 37, 37);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin: 5%;
+}
+
+.btn1 {
+  text-decoration: none;
+  border: 1px solid rgb(38, 37, 37);
+  color: rgb(38, 37, 37);
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.btn1:hover {
+  background-color: rgb(38, 37, 37);
+  color: rgb(189, 185, 185);
+  padding: 18px;
+}
+
+#producao {
+  width: 100%;
+  height: 500px;
+  background-image: url(images/producao.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+#qualidade {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#qualidade aside {
+  background-image: url(images/qualidade.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+.asideTexto {
+  margin-left: 30px;
+  margin-right: 30px;
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.asideTexto h1 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.asideTexto .btn1 {
+  margin-top: 70px;
+}
+
+#seguranca {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#asideSeguranca {
+  background-image: url(images/seguranca.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+
+.paralax {
+  text-align: center;
+  color: white;
+  width: 100%;
+  height: 500px;
+  background-image: url(images/imagen9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.paralax h1 {
+  margin-top: 30%;
+  font-size: 30px;
+}
+
+#sectionGestao {
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#sectionGestao p {
+  color: rgb(38, 37, 37);
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin: 5%;
+}
+
+.card {
+  text-align: center;
+  color: white;
+  background-color: rgb(51, 158, 194);
+  padding-top: 25px;
+  width: 250px;
+  height: 300px;
+  box-shadow: 5px 5px 10px #6f6b6b;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+}
+
+.card p {
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+
+.card a {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.sectionCards {
+  display: flex;
+  gap: 25px;
+}
+#lideranca {
+  text-align: center;
+  margin-top: 70px;
+
+  width: 85%;
+  border: 0.5px solid rgb(3, 83, 108);
+  padding: 40px;
+}
+
+#lideranca p {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+img {
+  margin-top: 70px;
+  width: 100%;
+  height: 500px;
+}
+
+footer {
+  color: rgb(241, 241, 241);
+  text-align: center;
+  padding-top: 30px;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(51, 158, 194);
+  line-height: 25px;
+}
+
+footer p {
+  font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
